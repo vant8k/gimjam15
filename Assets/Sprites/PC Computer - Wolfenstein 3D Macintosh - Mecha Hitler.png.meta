@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 853ee0fd0d1c61a4eb639bc7b5bbbcf8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 645.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ae2f26039981e4cae183c6e8486689
+      internalID: 1683224077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 645.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e5be03d871dac4f9fa31ee3376d095
+      internalID: 1007610018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 645.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f559607c5e134842aec3f07a0418b21
+      internalID: 116376916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 645.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c45dbd82a930e54f926454b19abf3af
+      internalID: 1368798940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39da8ae819de1064e9424dcabf5b662f
+      internalID: -983063029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 516.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f887c735c8d074c9184164640d869e
+      internalID: 112714189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 516.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157c543d8e8af79419db79855d8db0bb
+      internalID: 1531464629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 516.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb2ce276fa76614aa92ae5682059d15
+      internalID: 2094086032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27959663a23ab5468730777c3679297
+      internalID: 110076599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 387.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2898c197cadfc0b49b3944f8ccb88751
+      internalID: -586279913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 387.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a617e922059f04786c3a25c817fa42
+      internalID: -508108443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 387.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fe8a1b7ce8d5744a66d80103d47a4e
+      internalID: 1201287642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2428a4874a477f448a7024747df5712e
+      internalID: 2004190497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 258.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d7ed670f175f543b718399732facfe
+      internalID: 604796960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 258.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a670dec803bf4864499372fd866ad5b0
+      internalID: -757133618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 258.8333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba314b93682bca499f95d9e389ed8dc
+      internalID: 124499816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129.83333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa721e615dab374a840f6e67afdfcf4
+      internalID: 1569599553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129.83333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3500ad6376e069240bd649e5e4589c01
+      internalID: 203966446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 129.83333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dfb4fa2de7a3c478074d4897550923
+      internalID: 2011986457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 129.83333
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daae39f04b431e148894d3a06f4af929
+      internalID: 217898987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.83332825
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956cb255679ffbd49ae56a31c47f84e0
+      internalID: -1960009302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0.83332825
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43330b8474cc5e14f85cf6b71a681f70
+      internalID: 87757385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0.83332825
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66afba4a0c22e0c47943dc544cd5f6b4
+      internalID: -2146871607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_23
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0.83332825
+        width: 129.25
+        height: 129.16667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0f50b99f05d254488695fddc23f2bc
+      internalID: 1067970830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_0: 1683224077
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_1: 1007610018
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_10: -508108443
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_11: 1201287642
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_12: 2004190497
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_13: 604796960
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_14: -757133618
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_15: 124499816
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_16: 1569599553
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_17: 203966446
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_18: 2011986457
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_19: 217898987
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_2: 116376916
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_20: -1960009302
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_21: 87757385
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_22: -2146871607
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_23: 1067970830
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_3: 1368798940
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_4: -983063029
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_5: 112714189
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_6: 1531464629
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_7: 2094086032
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_8: 110076599
+      PC Computer - Wolfenstein 3D Macintosh - Mecha Hitler_9: -586279913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
