@@ -668,7 +668,7 @@ GameObject:
   - component: {fileID: 878842245}
   m_Layer: 0
   m_Name: ColliderBox
-  m_TagString: Untagged
+  m_TagString: Swastika
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -709,7 +709,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 30.002003, y: 17.55}
+    oldSize: {x: 12, y: 13.85}
     newSize: {x: 30.002003, y: 17.55}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -774,7 +774,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2d197d4ca12a6da44a5d7aaabd53ad10, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca380822e406eb340b160a08ebc3536e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1216,6 +1216,7 @@ MonoBehaviour:
   - {fileID: 2310461025373255170, guid: 0cd33c250c0c2d1498e74e3c3388e563, type: 3}
   - {fileID: 4727723098548947906, guid: 5a5b454d8fe00ce469a59e8fa5741f8c, type: 3}
   - {fileID: 3195888094437630784, guid: 76ccc90b75c3ee94ea3c76cb18d4aeda, type: 3}
+  orderedFood: {fileID: 0}
   control: {fileID: 1437307617}
 --- !u!114 &1437307617
 MonoBehaviour:
@@ -1231,6 +1232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   isPlateOver: 0
+  menu: {fileID: 1437307616}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class MenuOrder : MonoBehaviour
 {
     public GameObject[] foodmenu;
-    private GameObject orderedFood;
+    public GameObject orderedFood;
     public PersonController control;
 
     void Start()
