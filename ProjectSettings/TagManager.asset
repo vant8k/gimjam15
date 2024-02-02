@@ -7,6 +7,7 @@ TagManager:
   - Meja
   - Piring
   - Hitler
+  - Person
   layers:
   - Default
   - TransparentFX
@@ -46,6 +47,9 @@ TagManager:
     locked: 0
   - name: Hitler
     uniqueID: 3078922957
+    locked: 0
+  - name: Person
+    uniqueID: 2194977467
     locked: 0
   - name: Piring
     uniqueID: 1338599149
