@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class SpawnManager : MonoBehaviour
 {
     public GameObject personPrefab;
@@ -14,19 +13,15 @@ public class SpawnManager : MonoBehaviour
         CheckDrag();
     }
 
-    void SpawnPerson()
+    public void SpawnPerson()
     {
         GameObject newPerson = Instantiate(personPrefab, spawnPoint.position, Quaternion.identity);
         PersonController personController = newPerson.GetComponent<PersonController>();
-        Timer timer = newPerson.GetComponent<Timer>(); // Use the correct class name
-        if (timer != null)
-        {
-            timer.ResetTimer(); // Reset the timer when spawning a new person
-        }
+        personController.SetOrderManager(GetComponent<OrderManager>()); // Set the OrderManager reference
         personController.EnableMovement();
     }
 
-    void CheckDrag()
+    public void CheckDrag()
     {
         if (canSpawn && Input.GetMouseButtonUp(0))
         {

@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 26406981}
   - component: {fileID: 26406984}
   - component: {fileID: 26406983}
-  - component: {fileID: 26406986}
   - component: {fileID: 26406985}
   m_Layer: 0
   m_Name: Piring
@@ -280,33 +279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47a6bf2bbd4ef524dae0bfd87d254299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &26406986
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 26406980}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &236631009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,11 +1230,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40d96e69a1a30ce4787deab4805486b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foodmenu:
-  - {fileID: 2310461025373255170, guid: 0cd33c250c0c2d1498e74e3c3388e563, type: 3}
-  - {fileID: 4727723098548947906, guid: 5a5b454d8fe00ce469a59e8fa5741f8c, type: 3}
-  - {fileID: 3195888094437630784, guid: 76ccc90b75c3ee94ea3c76cb18d4aeda, type: 3}
-  control: {fileID: 1437307617}
+  foodMenu: []
+  orderedFood: {fileID: 878842236}
+  spawnManager: {fileID: 692048038}
 --- !u!114 &1437307617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1276,7 +1246,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  isPlateOver: 0
 --- !u!1 &1504151441
 GameObject:
   m_ObjectHideFlags: 0

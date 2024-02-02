@@ -6,6 +6,13 @@ public class PlateDragAndRelease : MonoBehaviour
 {
     private bool isDragging = false;
     private Vector3 startPosition;
+    private OrderManager orderManager;
+    private PersonController currentPerson;
+
+    void Start()
+    {
+        orderManager = FindObjectOfType<OrderManager>(); // Find the OrderManager in the scene
+    }
 
     void Update()
     {
@@ -25,18 +32,20 @@ public class PlateDragAndRelease : MonoBehaviour
     void OnMouseUp()
     {
         isDragging = false;
+        if (currentPerson != null && orderManager != null)
+        {
 
-        if (IsOverPerson())
-        {
-            // Plate released over the person
-            Debug.Log("Plate released over the person!");
-            Destroy(gameObject); // or any other logic for plate disappearance
-        }
-        else
-        {
-            // Plate released elsewhere
-            transform.position = startPosition; // Reset the plate position
-        }
+            if (IsOverPerson())
+            {
+                // Plate released over the person
+                orderManager.PlateDelivered(); // Notify the OrderManager that the plate is delivered
+            }
+            else
+            {
+                // Plate released elsewhere
+                currentPerson.ResetPlateState();
+                transform.position = startPosition; // Reset the plate position
+            }
     }
 
     bool IsOverPerson()
@@ -46,9 +55,12 @@ public class PlateDragAndRelease : MonoBehaviour
         {
             if (collider.CompareTag("Person"))
             {
+                // Notify the PersonController that a plate is over
+                collider.GetComponent<PersonController>().PlateOver();
                 return true;
             }
         }
         return false;
+    }
     }
 }

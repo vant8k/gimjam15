@@ -2,24 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OrderManager : MonoBehaviour
+public class MenuOrder : MonoBehaviour
 {
     public GameObject[] foodMenu;
     public GameObject orderedFood;
     public SpawnManager spawnManager;
-    public PersonController control;
 
     void Start()
     {
         spawnManager = GetComponent<SpawnManager>();
         Invoke("RequestMenu", 2.5f);
-    }
-    public void Update()
-    {
-        if (control != null && control.isPlateOver && Input.GetMouseButtonUp(0))
-        {
-            Destroy(orderedFood);
-        }
     }
 
     public void RequestMenu()
