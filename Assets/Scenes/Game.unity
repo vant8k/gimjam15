@@ -1342,8 +1342,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodMenu: []
   orderedFood: {fileID: 0}
-  spawnManager: {fileID: 0}
-  control: {fileID: 0}
+  spawnManager: {fileID: 692048038}
+  control: {fileID: 1437307617}
 --- !u!4 &532472550
 Transform:
   m_ObjectHideFlags: 0

@@ -10,14 +10,12 @@ public class OrderManager : MonoBehaviour
 
     void Start()
     {
-        // Find the MenuManager in the scene
         menuManager = FindObjectOfType<MenuManager>();
         if (menuManager == null)
         {
             Debug.LogError("MenuManager not found!");
         }
 
-        // Start spawning persons
         StartCoroutine(SpawnRandomPersonRoutine());
     }
 
@@ -36,10 +34,9 @@ public class OrderManager : MonoBehaviour
         GameObject newPerson = Instantiate(personPrefab, spawnPoint.position, Quaternion.identity);
         PersonController personController = newPerson.GetComponent<PersonController>();
 
-        // Set the MenuManager reference in PersonController
+        
         personController.SetMenuManager(menuManager);
 
-        // Request food when the person spawns
         personController.RequestFood();
     }
 }

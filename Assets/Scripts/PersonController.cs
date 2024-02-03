@@ -7,6 +7,7 @@ public class PersonController : MonoBehaviour
     private OrderManager orderManager;
     public MenuManager menuManager;
     public GameObject platePrefab;
+    private Vector3 plateStartPosition;
 
     void Start()
     {
@@ -21,6 +22,10 @@ public class PersonController : MonoBehaviour
     public void SetOrderManager(OrderManager manager)
     {
         orderManager = manager;
+    }
+    public void SetMenuManager(MenuManager manager)
+    {
+        menuManager = manager;
     }
     public void RequestFood()
     {
@@ -43,22 +48,22 @@ public class PersonController : MonoBehaviour
 
     void SpawnEmptyPlate()
     {
-        // Instantiate an empty plate prefab (you should have a prefab for the empty plate)
+        
         GameObject emptyPlate = Instantiate(platePrefab, transform.position, Quaternion.identity);
 
-        // Attach the empty plate to the person (or any other logic)
+        
         emptyPlate.transform.parent = transform;
     }
 
     public IEnumerator DisappearAndSpawnCoroutine()
     {
-        // Optional: Add any animation or effect before disappearing
+       
         yield return new WaitForSeconds(1.0f);
 
-        // Destroy the current person
+       
         Destroy(gameObject);
 
-        // Spawn a new person after a delay
+   
         yield return new WaitForSeconds(2.0f);
         if (orderManager != null)
         {
@@ -68,7 +73,7 @@ public class PersonController : MonoBehaviour
 
     public void PlateOver()
     {
-        // Notify the OrderManager that the plate is released
+       
         if (orderManager != null)
         {
             orderManager.PlateDelivered();
