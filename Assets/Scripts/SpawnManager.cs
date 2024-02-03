@@ -13,15 +13,13 @@ public class SpawnManager : MonoBehaviour
         CheckDrag();
     }
 
-    public void SpawnPerson()
+    void SpawnPerson()
     {
         GameObject newPerson = Instantiate(personPrefab, spawnPoint.position, Quaternion.identity);
         PersonController personController = newPerson.GetComponent<PersonController>();
-        personController.SetOrderManager(GetComponent<OrderManager>()); // Set the OrderManager reference
-        personController.DisappearAndSpawn();
     }
 
-    public void CheckDrag()
+    void CheckDrag()
     {
         if (canSpawn && Input.GetMouseButtonUp(0))
         {
