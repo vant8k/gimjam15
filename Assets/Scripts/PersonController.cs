@@ -1,49 +1,94 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class PersonController : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    private bool canMove = false;
-    private bool isPlateOver = false;
     private OrderManager orderManager;
+    public MenuManager menuManager;
+    public GameObject platePrefab;
 
-    void Update()
+    void Start()
     {
-        if (canMove)
+        menuManager = FindObjectOfType<MenuManager>();
+        orderManager = FindObjectOfType<OrderManager>();
+        if (orderManager == null)
         {
-            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+            Debug.LogError("orderManager not found!");
         }
-
-        if (isPlateOver && Input.GetMouseButtonUp(0))
-        {
-            // Notify the OrderManager that the plate is delivered successfully
-            orderManager.PlateDelivered();
-        }
+        RequestFood();
     }
-
-    public void EnableMovement()
-    {
-        canMove = true;
-    }
-
     public void SetOrderManager(OrderManager manager)
     {
         orderManager = manager;
     }
+    public void RequestFood()
+    {
+        if (menuManager != null && menuManager.menuItems.Count > 0)
+        {
+
+            MenuItem requestedItem = menuManager.menuItems[Random.Range(0, menuManager.menuItems.Count)];
+
+           
+            Debug.Log("Person requested: " + requestedItem.itemName);
+
+            
+            SpawnEmptyPlate();
+        }
+        else
+        {
+            Debug.LogWarning("Menu is empty!");
+        }
+    }
+
+    void SpawnEmptyPlate()
+    {
+        // Instantiate an empty plate prefab (you should have a prefab for the empty plate)
+        GameObject emptyPlate = Instantiate(platePrefab, transform.position, Quaternion.identity);
+
+        // Attach the empty plate to the person (or any other logic)
+        emptyPlate.transform.parent = transform;
+    }
+
+    public IEnumerator DisappearAndSpawnCoroutine()
+    {
+        // Optional: Add any animation or effect before disappearing
+        yield return new WaitForSeconds(1.0f);
+
+        // Destroy the current person
+        Destroy(gameObject);
+
+        // Spawn a new person after a delay
+        yield return new WaitForSeconds(2.0f);
+        if (orderManager != null)
+        {
+            orderManager.SpawnRandomPerson();
+        }
+    }
+
     public void PlateOver()
     {
-        isPlateOver = true;
+        // Notify the OrderManager that the plate is released
+        if (orderManager != null)
+        {
+            orderManager.PlateDelivered();
+        }
     }
+
     public void ResetPlateState()
     {
-        isPlateOver=false;
+        Transform plateTransform = transform.Find("PlatePrefab(Clone)"); // Assuming "PlatePrefab(Clone)" is the instantiated plate's name
+        if (plateTransform != null)
+        {
+            plateTransform.position = plateStartPosition;
+        }
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Piring"))
         {
-            isPlateOver = true;
+            PlateOver();
         }
     }
 
@@ -51,7 +96,12 @@ public class PersonController : MonoBehaviour
     {
         if (other.CompareTag("Piring"))
         {
-            isPlateOver = false;
+            ResetPlateState();
         }
+    }
+
+    public void DisappearAndSpawn()
+    {
+        StartCoroutine(DisappearAndSpawnCoroutine());
     }
 }

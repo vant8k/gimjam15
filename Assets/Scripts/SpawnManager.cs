@@ -18,7 +18,7 @@ public class SpawnManager : MonoBehaviour
         GameObject newPerson = Instantiate(personPrefab, spawnPoint.position, Quaternion.identity);
         PersonController personController = newPerson.GetComponent<PersonController>();
         personController.SetOrderManager(GetComponent<OrderManager>()); // Set the OrderManager reference
-        personController.EnableMovement();
+        personController.DisappearAndSpawn();
     }
 
     public void CheckDrag()

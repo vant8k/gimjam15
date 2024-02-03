@@ -45,15 +45,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Hitler
-    uniqueID: 3078922957
+  - name: bg
+    uniqueID: 354478387
     locked: 0
   - name: Person
-    uniqueID: 2194977467
+    uniqueID: 3078922957
+    locked: 0
+  - name: Meja
+    uniqueID: 2935031151
     locked: 0
   - name: Piring
     uniqueID: 1338599149
     locked: 0
-  - name: Meja
-    uniqueID: 2935031151
+  - name: Lauk
+    uniqueID: 3937842459
+    locked: 0
+  - name: Layout
+    uniqueID: 336595201
     locked: 0

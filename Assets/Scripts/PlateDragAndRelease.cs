@@ -6,8 +6,9 @@ public class PlateDragAndRelease : MonoBehaviour
 {
     private bool isDragging = false;
     private Vector3 startPosition;
-    private OrderManager orderManager;
+    //private OrderManager orderManager;
     private PersonController currentPerson;
+    private OrderManager orderManager;
 
     void Start()
     {
@@ -32,7 +33,7 @@ public class PlateDragAndRelease : MonoBehaviour
     void OnMouseUp()
     {
         isDragging = false;
-        if (currentPerson != null && orderManager != null)
+        if (currentPerson != null)
         {
 
             if (IsOverPerson())
